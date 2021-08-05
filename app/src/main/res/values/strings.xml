@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SistemaInfoLogin</string>
+    <string name="forgot_login_info">Esqueceu seu Login?</string>
+    <string name="sign_in">Entrar</string>
+    <string name="username">Usuário</string>
+    <string name="remember_password">Lembre Minha Senha</string>
+
+
+    <string name="password">Senha</string>
+    <string name="email">E-Mail</string>
+    <string name="full_name">Nome Completo</string>
+    <string name="register_account">Registrar</string>
+    <string name="recover_account">Recuperar Conta</string>
+
+
+    <string name="codigo">Código</string>
+    <string name="nomeCompleto">Nome *</string>
+    <string name="cpf">CPF *</string>
+    <string name="endereco">Endereço</string>
+    <string name="telefone">Telefone</string>
+    <string name="cadastrar">Cadastrar Pessoa</string>
+    <string name="editar">Editar Pessoa</string>
+    <string name="listar">Listar Pessoas</string>
+    <string name="obrigatorios">Os campos com * são obrigatórios!</string>
+
+    <string name="success_insert_people">Pessoa inserida no banco de dados!</string>
+    <string name="error_insert_people">Erro ao inserir pessoa no banco de dados.</string>
+
+</resources>

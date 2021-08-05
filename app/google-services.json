@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503904287895",
+    "project_id": "sistemainfo-app",
+    "storage_bucket": "sistemainfo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503904287895:android:94ce38ed6d736d41673dd2",
+        "android_client_info": {
+          "package_name": "com.example.sistemainfologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503904287895-gller7h8jnbcmlce79ft05l36c1o5v2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwLkQKOwcgD3miEHzNMPlNZXZQ3qJoB70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503904287895-gller7h8jnbcmlce79ft05l36c1o5v2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

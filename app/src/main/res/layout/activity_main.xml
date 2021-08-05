@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+
+    <ImageView
+        android:layout_width="249dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#EEE"
+        android:textSize="20dp"
+        android:text="Cadastro de Pessoas" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_edittext_bg"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        android:textColorHint="#CCC"
+        android:hint="@string/nomeCompleto"/>
+
+    <EditText
+        android:id="@+id/edCpf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_edittext_bg"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        android:textColorHint="#CCC"
+        android:hint="@string/cpf"/>
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_edittext_bg"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        android:textColorHint="#CCC"
+        android:hint="@string/endereco"/>
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:background="@drawable/login_edittext_bg"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        android:textColorHint="#CCC"
+        android:hint="@string/telefone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#EEE"
+        android:layout_marginTop="5dp"
+        android:textSize="10dp"
+        android:text="@string/obrigatorios" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/cadastrar"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/listar"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
